@@ -10,7 +10,13 @@ public class Chart_bart {
 		if(something.equals("yes")) {
 			JOptionPane.showMessageDialog(null,"keep doing whatever you're doing");
 		}else if(something.equals("no")) {
-			
+			String sumfin = JOptionPane.showInputDialog("Do you want to be happy?");
+			if(sumfin.equals("yes")) {
+				JOptionPane.showMessageDialog(null,"Change something");
+		}
+			else if(sumfin.equals("no")) {
+				JOptionPane.showMessageDialog(null,"Keep doing whatever you're doing");
+			}
 			
 		}
 	}
