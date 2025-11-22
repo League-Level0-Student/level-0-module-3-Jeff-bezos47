@@ -15,7 +15,18 @@ void draw() {
 (see the image on the recipe, it's a diagonal line of circles)
 Use remainder to make the colors alternate between yellow and black
 */
+for(int loop=0; loop<33; loop++){
+  ellipse(loop*15, loop*15, 50, 50);
 
+  if(loop % 2 == 0){
+    fill(0);
+    ellipse(loop*15, loop*15, 50, 50);
+  }
+  if (loop % 2 == 1){
+    fill(#EDFF00);
+    ellipse(loop*15, loop*15, 50, 50);
+  }
+  }
 
 
 /*
